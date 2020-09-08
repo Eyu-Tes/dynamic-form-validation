@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialized Form</title>
+
+    <!-- Font Awsome, Bootstrap -->
+    <link rel="stylesheet" href="../../../../../../Web Templates/Font Awsome/css/all.min.css">
+    <link rel="stylesheet" href="../../../../../../Web Templates/Bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- mx-auto : centers the div in the center of it's parent element -->
+            <div class="col-md-9 col-lg-6 mx-auto">
+                <div class="form-container">
+                    <form action="#" id="registration-form" novalidate>
+                        <legend class="border-bottom mb-4">Create Account</legend>
+                        <div class="form-group">
+                            <label for="name">User name</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                                <input type="text" name="Name" class="form-control" id="name" autofocus autocomplete="off">
+                            </div>
+                            <span class="helper-text"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                </div>
+                                <input type="email" name="Email" class="form-control" id="email" autocomplete="off">
+                            </div>
+                            <span class="helper-text"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-key"></i>
+                                    </span>
+                                </div>
+                                <input type="password" name="Password" class="form-control" id="password">
+                            </div>
+                            <span class="helper-text"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Confirm Password</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                </div>
+                                <input type="password" name="Confirm Password" class="form-control" id="confirm-password">
+                            </div>
+                            <span class="helper-text"></span>
+                        </div>
+                        <button type="submit" class="btn btn-outline-success mt-3">
+                            <i class="fas fa-sign-in-alt mr-2"></i> Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../../../../../../Web Templates/Bootstrap/jquery-3.4.1.slim.min.js"></script>
+    <script src="../../../../../../Web Templates/Bootstrap/popper.min.js"></script>
+    <script src="../../../../../../Web Templates/Bootstrap/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
